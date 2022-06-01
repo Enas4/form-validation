@@ -7,6 +7,7 @@ const FormInput = (props) => {
   const handleFocus = (e) => {
     setFocused(true);
   };
+
   return (
     <div className="Form-input">
       <label>{label}</label>
